@@ -1,19 +1,19 @@
-      .row{
-        height: 300px;
-      }
-      #intro{
-        width: 100%;
-        height: 680px;
-        background: url(../img/top.jpg);
-        background-size: cover;
-      }
-      .title-block{
-        padding: 1em;
-        border: 3px solid #fff;
-        margin-top: 30%;
-        text-align: center;
-        color: #fff;
-        font-size: 1.5em;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-      }
+.row{
+  height: 300px;
+}
+#intro{
+  width: 100%;
+  height: 680px;
+  background: url(../img/top.jpg);
+  background-size: cover;
+}
+.title-block{
+  padding: 1em;
+  border: 3px solid #fff;
+  margin-top: 30%;
+  text-align: center;
+  color: #fff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
