@@ -5,16 +5,22 @@
 #intro{
   width: 100%;
   height: 680px;
-  background: url(../img/top.jpg);
-  background-size: cover;
+  background: url(../img/top1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .title-block{
   padding: 1em;
   border: 3px solid #fff;
-  margin-top: 30%;
+  margin-top: 20%;
   text-align: center;
   color: #fff;
   font-size: 1.5em;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+.title-block p{
+  font-size: 0.5em;
+  margin: 0;
+  padding: 0;
 }
