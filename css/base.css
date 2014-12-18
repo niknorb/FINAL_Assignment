@@ -1,6 +1,6 @@
 .row{
-  height: 300px;
   padding-top: 50px;
+  margin-bottom: 1em;
 }
 #intro{
   width: 100%;
@@ -23,4 +23,7 @@
   font-size: 0.5em;
   margin: 0;
   padding: 0;
+}
+.project-block{
+  margin-bottom: 1em;
 }
