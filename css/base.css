@@ -1,6 +1,7 @@
 .row{
   padding-top: 50px;
   margin-bottom: 1em;
+  position: relative;
 }
 #intro{
   width: 100%;
@@ -25,5 +26,71 @@
   padding: 0;
 }
 .project-block{
-  margin-bottom: 1em;
+  position: relative;
+  padding: 0 5px;
+  margin: 0 0 1em;
+  box-sizing: border-box;
+}
+.overlay{
+  background: rgba(0,0,0,0.5);
+  height: 100%;
+}
+.overlay .row{
+  text-align: center;
+}
+#scroll_triangle{
+  position: absolute;
+  top: 600px;
+  width:100%;
+}
+.rollover-info{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  height: 100%;
+  width: 97%;
+  margin: 0 5px;
+  box-sizing: border-box;
+  padding: 0.5em;
+  opacity: 0;
+}
+.rollover-info h3{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #fff;
+  margin-top: 3em;
+  border-bottom: 1px solid #fff;
+}
+.rollover-info p{
+  font-size: 0.8em;
+  text-align: center;
+}
+.project-block:hover .rollover-info{
+  transition: opacity 0.5s;
+  opacity: 1;
+}
+nav ul.left{
+  padding-top: 0.7em;
+}
+nav ul.left a{
+  color: #fff;
+  text-transform: uppercase;
+}
+footer nav ul.left li{
+  margin-right: 2em;
+}
+.top-bar.expanded{
+  background: #f7f7f7;
+}
+.top-bar.expanded ul.left li{
+  padding: 0.5em 0;
+}
+.top-bar.expanded a{
+  color: #333;
+}
+footer{
+  margin-top: 2em;
 }

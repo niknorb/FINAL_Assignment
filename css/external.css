@@ -1,20 +1,14 @@
-h1{
-	text-transform: uppercase;
-	font-size: 2em;
-	font-family: serif;
-	text-align: center;
-}
+*{font-family: 'Raleway', sans-serif;}
 
-h2{
-	font-size: 1em;
-	font-family: serif;
+p{
+	font-size: .85em;
+	font-weight: lighter;
+	line-height: 1.5;
 }
 body{
 	max-width: 100%;
 	margin: auto;
-	padding: 50px;
 }
-
 .flex-video { 
 	position: relative; 
 	padding-bottom: 53.25%; 
@@ -32,3 +26,44 @@ body{
 	left: 0; 
 	width: 100%; 
 	height: 100%; }
+.row{
+	background: #f7f7f7;
+}
+.project-title{
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-weight: 800;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	padding: 1em 0;
+}
+
+nav ul.left{
+	padding-top: 0.7em;
+}
+nav ul.left a{
+	color: #fff;
+	text-transform: uppercase;
+}
+footer nav ul.left li{
+	margin-right: 2em;
+	padding: .2em 0;
+}
+.top-bar.expanded{
+	background: #f7f7f7;
+}
+.top-bar.expanded ul.left li{
+	padding: 0.5em 0;
+}
+.top-bar.expanded a{
+	color: #333;
+}
+footer{
+	margin-top: 2em;
+}
+footer ul li{
+	font-size: .75em;
+}
+footer .top-bar ul.title-area li.name h1{
+	font-size: .75em;
+}
