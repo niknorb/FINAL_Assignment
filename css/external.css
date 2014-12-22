@@ -4,6 +4,7 @@ p{
 	font-size: .85em;
 	font-weight: lighter;
 	line-height: 1.5;
+	margin-top: 20px;
 }
 body{
 	max-width: 100%;
@@ -66,4 +67,16 @@ footer ul li{
 }
 footer .top-bar ul.title-area li.name h1{
 	font-size: .75em;
+}
+footer nav ul.right{
+	padding-right: 10px;
+	padding-top: 2px;
+}
+h2{
+	font-weight: 400;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	border-top: 3px solid #fff;
+	padding-top: 15px;
+
 }

@@ -81,6 +81,7 @@ nav ul.left a{
 }
 footer nav ul.left li{
   margin-right: 2em;
+  padding: .2em 0;
 }
 .top-bar.expanded{
   background: #f7f7f7;
@@ -93,4 +94,14 @@ footer nav ul.left li{
 }
 footer{
   margin-top: 2em;
+}
+footer ul li{
+  font-size: .75em;
+}
+footer .top-bar ul.title-area li.name h1{
+  font-size: .75em;
+}
+footer nav ul.right{
+  padding-right: 10px;
+  padding-top: 2px;
 }
